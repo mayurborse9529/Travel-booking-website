@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="booking .css">
+    <script src="https://kit.fontawesome.com/718d67c8f8.js" crossorigin="anonymous"></script>
+<head>
+    <style>
+  /* body{
+    background: url(wp.jpg);
+    background-size: cover;
+  }       */
+
+input[type=text], select {
+  width: 10%;
+  height: 15%;
+  padding: 10px;
+  /* margin-top: 25; */
+  margin: 35px 10px;
+  display:inline-flex;
+  text-align: center;
+  border: 1px solid firebrick;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+          width: 10%;
+          height: 15%;
+          background-color:blue;
+          color: white;
+          padding:  20px;
+          margin: 15px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          
+          
+        }
+        input[type=RESET] {
+          width: 10%;
+          height: 15%;
+          background-color:blue;
+          color: white;
+          padding:  20px;
+          margin: 15px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          
+          
+        }
+        
+         input[type=submit]:hover {
+          background-color:gray;
+        } 
+        .form{
+            /* box-sizing: content-box; */
+            /* border: 1px solid blue; */
+            /* background-color: aqua; */
+        }
+         .form{
+            font-size:50px;
+            color:yellow;
+            text-align: center;
+            padding: 100px;
+            /* box-shadow: 2px; */
+         }
+         .box1{
+           font-size: 25px;
+           box-sizing: border-box;
+           color:tomato;
+           margin: 25px;
+          
+        /* background: white; */
+           min-width:100px;
+           text-align: center;
+            /* margin-right: 45px; */
+            /* padding: 45px; */
+       
+        
+         }
+         .box2{
+            font-size: 25px;
+           box-sizing: border-box;
+           color:whitesmoke;
+        /* background: white; */
+           min-width:100px;
+           text-align: center;
+            /* margin-right: 45px; */
+            /* padding: 45px; */
+             margin: 50px;
+         }
+         .box3{
+            font-size: 25px;
+           box-sizing: border-box;
+           color:yellowgreen;
+        /* background: white; */
+            min-width:100px;
+             text-align:center;
+             /* margin-right: 45px; */
+             /* padding: 45px; */
+            
+            margin: 50px;
+         }
+         .content{
+          font-family: Arial, Helvetica, sans-serif;
+          color: lightpink;
+          text-shadow: 10px 10px 10px;
+          font-size: x-large;
+         }
+         .mauli{
+          color: white;
+          text-align: center;
+          font-size: xx-large;
+         
+
+         }
+         h2{
+          text-align: center;
+        padding: 10px;
+        
+         }
+        
+        .map{
+          width: 20%;
+          height: 25vh;
+          display:list-item;
+          align-items:center;
+          justify-content:flex-start;
+          margin: 50px;
+        }
+        .icon{
+          color: white;
+        }
+        .icon1{
+          color:blue;
+        }
+        .icon2{
+          color: red;
+        }
+        ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    text-transform:none;
+    background: url(wp.jpg);
+    background-size: cover;
+    font-weight: bold;
+    /* position:relative; */
+  } 
+  
+  li {
+    float: left;
+    font-size: 30px;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color:darkorange;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+  }
+  
+  li a:hover{
+    background-color:tan;
+    color:black;
+  }
+  
+  li.dropdown {
+    display:block;
+  }
+  
+   .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:aliceblue;
+    min-width: 20px;
+    font-size: large;
+  } 
+  
+   .dropdown-content a {
+     color:darkblue;
+    padding: 10px 39px;
+    text-decoration: none; 
+     display: block; 
+    text-align: center; 
+
+  } 
+
+   .dropdown-content a:hover {background-color:teal;} 
+  
+  .dropdown:hover .dropdown-content {
+    display: block; 
+   }
+
+   .active{
+    color:tomato;
+    background-color:springgreen;
+   }
+   h1{
+        height: 3px;
+        margin: auto;
+        color:lime;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: right;
+        padding: 10px;
+        text-transform: uppercase;
+        text-shadow:10px 10px 10px;
+      }
+
+        
+         
+          
+     
+    
+
+         
+    
+        </style> 
+        <body>
+          <ul>
+    
+            <li><a class="active"href="index.html">HOME</a></li> 
+            <li><a href="Gallery1.html">GALLERY</a></li> 
+           <li class="dropdown">
+             <a class="dropdown">DESTINATION</a>
+             <div class="dropdown-content">
+               <a href="contact.html">Choose Your Destination</a>
+               <a href="contact.html">Closing Where To Go</a>
+               
+            <li><a href="booking form.html">CONTACT</a></li> 
+            <li><a href="about us.html">ABOUT US</a></li> 
+       
+           
+             </div>
+             <div class="tours">
+               <h1> Mauli Tours&Travels</h1><br><br><br>
+               
+                
+             </div>
+           
+           
+          
+          <form action="contact.html">
+
+
+        
+          
+            <section class="contact">
+                <div class="content">
+                
+                    <h2>Mauli Tours&Travels</h2>
+                    <p class="mauli">सदैव  तुमच्या सेवेत तत्पर</p>
+                </div>
+                <div class="container">
+                     <div class="contactInfo">
+                       <div class="box1">
+                        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="text">
+                            <h3>Address</h3>
+                            <p>80 Feet Rd, Madhavpura Dhule  Maharashtra ,424001 </p>
+                            </div>
+                       </div>
+        
+        
+                          <div class="box2">
+                             <div class="icon1"><i class="fa-solid fa-phone"></i></div>
+                                <div class="text">
+                                    <h3>Phone No.</h3>
+                                    <p>901247825485</p>
+                                
+                                 </div>
+                                </div> <div class="box3">
+                                    <div class="icon2"></div>
+                                        <div class="icon2"><i class="fa-solid fa-envelope"></i></div>
+                                        <div class="text">
+                                            <h3>Email Id</h3>
+                                            <p>mauliTours&Travels789@gmail.com</p>
+                                        </div> 
+                                   </div>
+                               </div>
+                           </div>
+                          
+                      
+        <!-- <h3>BOOKING THE TRAVELS</h3> -->
+        
+            <div class="form">
+          <form action="/action_page.php">
+            <label for="Form">Form</label>
+            <select id="country" name="country">
+              <option value="dhule">मुंबई </option>
+                <option value="Nashik">पठाणपूर </option>
+                <option value="dhule">परभणी </option>
+                <option value="dhule">अकोला </option>
+                <option value="dhule">उस्मानाबाद </option>
+                <option value="dhule">दोंडाईचा</option>
+                <option value="dhule"> गोंदिया </option>
+                <option value="dhule">सांगली </option>
+                <option value="dhule">भिवंडी</option>
+                <option value="dhule"> बीड </option>
+                <option value="dhule">कल्याणय </option>
+                <option value="dhule">वतमाळ </option>
+                <option value="dhule">बार्शी </option>
+                <option value="dhule">रत्नागिरी</option>
+                <option value="dhule">रत्नागिरी</option>
+              </select>
+            <!-- <input type="text" id="fname" name="pune" placeholder="Your name.."><br> -->
+        
+            <label for="to">To</label>
+            <select id="country" name="country">
+                <option value="Pune">बार्शी</option>
+                 <option value="Nashik">औरंगाबाद</option>
+                <option value="dhule">पुणे</option>
+                <option value="Pune">नागपूर</option>
+                <option value="Pune">नाशिक </option>
+                <option value="Pune">उमरावती</option>
+                <option value="Pune">अहमदनगर</option>
+                <option value="Pune">धुळे </option>
+                <option value="Pune"> चंदनपुर </option>
+                <option value="Pune">सोलापूर </option>
+                <option value="Pune">पनवेल </option>
+                <option value="Pune">नांदेड</option>
+                <option value="Pune"> लातूर </option>
+                <option value="Pune">जळगाव</option>
+                <option value="Pune"> मालेगाव </option>
+              </select>
+            <!-- <input type="text" id="lname" name="Nashik" placeholder="Your last name.."><br> -->
+            
+        
+            <label for="country">Email id</label>
+            <input type="text">
+            <!-- <select id="country" name="country">
+              <option value="Pune">Pune</option>
+              <option value="Nashik">Nashik</option>
+              <option value="dhule">Dhule</option>
+            </select> -->
+          
+            
+              
+            <input type="submit" value="SEARCH">
+            <input type="reset"value="RESET">
+               
+                <input type="date">
+                    <input type="time">
+                  
+         
+        </div>
+        <div class="footer">
+          <div class="col-1">
+              <h3>USEFUL LINKS</h3>
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Contact</a>
+              <a href="#">Shop</a>
+              <a href="#">Blog</a>
+          </div>
+          <div class="col-2">
+              <h3>CONTACT</h3>
+              <h6>Email</h6>
+            MauliTours&Travels@Gmail.com
+            <div class="contact">Phone</div>
+                55785314677
+                <div class="contact">Address</div>
+                 Dhule,Maharashtra
+          </div>
+      <div class="col-3">
+      
+                
+              </form>
+              <div class="col-3">
+                <h3>COSTOMER POLICIES</h3>
+                <div>FAQ</div>
+                <div> T&C</div>
+                <div>Terms in Condition</div> 
+               <div>Track Buses</div> 
+               <div> Cancelltion</div>
+             <div>Privacy Policy</div>
+        </div> 
+        </head>
+        </body>
+        </html>
+        
+        
+                        
+     

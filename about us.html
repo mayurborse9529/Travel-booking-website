@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:white;
+      }
+      
+      
+      header {
+        background-color:white;
+        padding: 25px;
+        text-align:left;
+        font-size: 15px;
+        color:black;
+      }
+      
+      nav {
+        float:left;
+        width: 30%;
+        height: 300px; 
+        background:white;
+        padding: 20px;
+        background: url(bus3.jpg);
+        background-size: cover;
+      }
+      
+      
+      nav ul {
+        list-style-type: none;
+         margin: 0;
+          padding: 0;
+          overflow:hidden;
+          text-transform:none;
+           /* background-color: black;  */
+          font-weight: bold;
+           float: calc(center); 
+      }
+      h2{
+        color:blue;
+      }
+      h1{
+        color: red;
+      /* text-decoration-color: blue; */
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 10px 5px 10px ;
+      }
+      
+      
+      
+      
+      article {
+        float: left;
+        padding: 25px;
+        width: 70%;
+        background-color:white;
+        height: 300px; 
+      }
+      
+      
+      section::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      
+      footer {
+        background-color:aquamarine;
+        padding: 25px;
+        font-size: 25px;
+        text-align: center;
+        color:hotpink;
+      }
+      
+      
+      @media (max-width:600px) {
+        nav, article {
+          width: 20px;;
+          height: auto;
+        }
+    }
+    span{
+          font-size:x-large;
+    }
+    span{
+        font-size: x-large;
+    }
+    .header1 {
+        background-color:darkgoldenrod;
+        padding: 0px;
+        text-align:left;
+        font-size: 15px;
+        /* color:darkcyan; */
+      }
+      
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    text-transform:none;
+    /* background-color:blueviolet; */
+    font-weight: bold;
+    /* position:relative; */
+  } 
+  
+  li {
+    float: left;
+    font-size: 30px;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color:ghostwhite;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+  }
+  
+  li a:hover{
+    /* background-color:tan; */
+    color:darkred;
+  }
+  
+  li.dropdown {
+    display:block;
+  }
+  
+   .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:aliceblue;
+    min-width: 20px;
+    font-size: large;
+  } 
+  
+   .dropdown-content a {
+     color:darkblue;
+    padding: 10px 39px;
+    text-decoration: none; 
+     display: block; 
+    text-align: center; 
+
+  } 
+
+   .dropdown-content a:hover {background-color:teal;} 
+  
+  .dropdown:hover .dropdown-content {
+    display: block; 
+   }
+
+   .active{
+    color:black;
+    /* background-color:s; */
+   }
+   h1{
+        height: 3px;
+        margin: auto;
+        color:lime;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: right;
+        padding: 10px;
+        text-transform: uppercase;
+        text-shadow:10px 10px 10px;
+      }
+     
+      *{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: blueviolet;
+    color: white;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+    font-size: 25px;
+}
+.col-2{
+    flex-grow: 2;
+    
+
+}
+
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: 35px;
+    color:gold;
+  /* text-transform: capitalize; */
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color:white;
+    margin-bottom: 10px;
+}
+form input{
+    width: 250px;
+    height: 100px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+form button{
+    background:white;
+    border: 2px solid black;
+    color: red;
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-size: 25px;
+    cursor:pointer;
+    
+}
+p{
+    color: black;
+    font-size: 14px
+}
+h6{
+    margin: 5px;
+    padding: 10px;
+    color: gold;
+}
+.contact{
+    margin: 5px;
+    padding: 10px;
+    color: gold;
+}
+
+      </style>
+      </head>
+      <body>
+        <header class="header1">
+        <ul>
+    
+          <li><a class="active"href="index.html">HOME</a></li> 
+          <li><a href="Gallery1.html">GALLERY</a></li> 
+         <li class="dropdown">
+           <a class="dropdown">DESTINATION</a>
+           <div class="dropdown-content">
+             <a href="contact.html">Choose Your Destination</a>
+             <a href="contact.html">Closing Where To Go</a>
+             
+          <li><a href="booking form.html">CONTACT</a></li> 
+          <li><a href="about us.html">ABOUT US</a></li> 
+     
+         
+           </div>
+           <div class="tours">
+             <h1> Mauli Tours&Travels</h1><br><br><br>
+             
+              
+           </div>
+          </header>
+       
+      <p> </p>
+      <header>
+         
+            <p><span>Mauli</span> Tours & Travels is a renowned brand in the bus operating industry. Our vision is to give a new face to the bus industry.
+                Since our inception passenger comfort was our top priority.
+                We have integrated this great technology of live bus tracking in almost all of our buses. This
+               helps the passengers to be informed about the live position of the bus, th.Our Customer Support 
+               To render the best service we strive to provide the best customer support. We have an attentive customer support team to which the passengers can report 
+               any issues regarding the journey.
+                 Mauli Travels Bus Tickets Online Online
+                 Mauli Travels has a bus fleet of 2 buses including Multi-axel Volvos and Sleepers in both A/c and Non A/c Category. It operates in some of the major routes in North India. Some of the Important routes of Mauli Travels include Mumbai-Shirdi etc.
+                Mauli Travels Bus Booking can be done on AbhiBus.com using online payment (Credit Cards, Debit Cards or Net banking). Customers can carry the Mobile Ticket(SMS confirmation) that they receive from AbhiBus.com after the booking. Customers can call AbhiBus.com's 24/7 Customer Support for any queries that they have. All transactions on AbhiBus.com are safe and secure (encrypted using VeriSign SSL Security</p> 
+      </header>
+      
+      <section>
+        <nav>
+          <ul>
+            <!-- <li><a href="#">loandn</a></li>
+            <li><a href="#">Paris</a></li>
+            <li><a href="#">Tokyo</a></li> -->
+            <!-- <img src="bus3.jpg" alt="bus1"> -->
+            
+          </ul>
+      
+        </nav>
+        <article>
+          <!-- <h1>Mauli Tours & Travels</h1> -->
+          <p>
+          <span>The</span> buses have all the latest amenities like
+          
+          WiFi, charging point, water bottle and central TV. The
+            seats are really very comfortable and create a feeling of a cosy bedroom. We have almost all the
+             luxury brand buses in our fleet. 
+             Safety is one of the most important criteria 
+             we look for while planning a bus route. 
+             We have the best drivers who completely
+              understand the importance of safety and 
+              follow all the safety rules.
+              Mauli Tours Travels is a renowned brand in the bus operating industry. Our vision is to give a new face to the bus industry.
+               Since our inception passenger comfort was our top priorit
+             We have integrated this great technology of live bus tracking in almost all of our buses. This
+               helps the passengers to be informed about the live position of the bus, th.
+              To render the best service we strive to provide the best customer support. We have an attentive customer support team to which the passengers can report 
+                any issues regarding the journey. This team addresses all the issues of the passengers 
+                and comes out with a solution in the shortest possible time. 
+                Now, once a passenger boards the bus he will be surprised by the inner comfort of the bus.
+               The buses have all the latest amenities like WiFi, charging point, water bottle and central TV. The
+                seats are really very comfortable and create a feeling of a cosy bedroom. We have almost all the
+                 luxury brand buses in our fleet. 
+                Safety is one of the most important criteria we look for while planning a bus route. 
+              We have the best drivers who completely understand the importance of safety and follow all the safety rules.
+               Regulur Offers
+              We at Shree Hari Travels strive to maintain the most reasonable rates in the market.</p>
+        </article>
+      </section>
+      
+      <footer>
+        <p> <center>Thank You For Visit</center></p>
+                 
+          </footer>
+
+        </style>
+        <div class="footer">
+          <div class="col-1">
+              <h3>USEFUL LINKS</h3>
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Contact</a>
+              <a href="#">Shop</a>
+              <a href="#">Blog</a>
+          </div>
+          <div class="col-2">
+              <h3>CONTACT</h3>
+              <h6>Email</h6>
+            MauliTours&Travels@Gmail.com
+            <div class="contact">Phone</div>
+                55785314677
+                <div class="contact">Address</div>
+                 Dhule,Maharashtra
+          </div>
+      <div class="col-3">
+      <h3>COMMENTS SECTION</h3>
+              <form>
+                  <label>Comments</label>     
+                  <input type="text">    
+                  <br>
+                  
+              </form>
+              <div class="col-3">
+                <h3>COSTOMER POLICIES</h3>
+                <div>FAQ</div>
+                <div> T&C</div>
+                <div>Terms in Condition</div> 
+               <div>Track Buses</div> 
+               <div> Cancelltion</div>
+             <div>Privacy Policy</div>
+        </div>
+        </head>
+        </body>
+        </html>
+     
+</html>
